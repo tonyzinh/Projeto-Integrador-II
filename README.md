@@ -65,6 +65,12 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         <sub>
           <b>R. Simões G.</b><br/>
         </sub>
+            <td align="center">
+      <a href="#" title="defina o titulo do link">
+        <img src="https://avatars.githubusercontent.com/u/136760513?v=4" width="100px;" alt="Foto do Tonyzin no GitHub"/><br>
+        <sub>
+          <b>Yasmin Neumann</b><br/>
+        </sub>
       </a>
     </td>
   </tr>
