@@ -1692,3 +1692,64 @@ body {
     height: 150px;
     opacity: 1;
   }  
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-parent, .container1, .link, .link1, .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .container-parent, .container1, .link, .link1, .social {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .headline, .headline1, .headline-1-parent, .sesso-2-por-que-fazer-terap1, .sesso-3-como-funciona-terap1, .sesso-4-epecialidades, .sesso-5-comeando-minha-ter {
+        padding: 20px;
+    }
+
+    .home-parent, .slidebar-child, .login, .headline-1, .headline-1-parent, .aviso-de-ateno, .sesso-2-por-que-fazer-terap, .sesso-3-como-funciona-terap, .sesso-4-epecialidades, .sesso-5-comeando-minha-ter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home1, .sobre-ns, .psiclogos, .empresas, .suporte {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .agendar-consulta {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home1, .sobre-ns, .psiclogos, .empresas, .suporte {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+
+    .agendar-consulta {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .headline, .headline1, .headline-1-parent, .sesso-2-por-que-fazer-terap1, .sesso-3-como-funciona-terap1, .sesso-4-epecialidades, .sesso-5-comeando-minha-ter {
+        padding: 10px;
+    }
+}

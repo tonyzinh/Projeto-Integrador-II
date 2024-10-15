@@ -58,7 +58,15 @@
       width: 165px;
       height: 24px;
       z-index: 0;
-}
+      border: none;
+      outline: none;
+      background: none;
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      padding: 0;
+      margin: 0;
+  }
 .label-text2 {
       margin: 0 !important;
       position: absolute;
@@ -212,6 +220,7 @@
 }
 .button {
       position: absolute;
+      font-family: poppins;
       top: 0px;
       left: 54px;
       width: 402px;
@@ -220,7 +229,11 @@
       align-items: flex-start;
       justify-content: flex-start;
       color: #f3f3f3;
-}
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+  }
 .registrar {
       color: #a02cfb;
 }
