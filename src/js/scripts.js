@@ -141,7 +141,8 @@ document.addEventListener("DOMContentLoaded", function() {
         sobreNos: './pages/error.html',
         psicologos: './pages/error.html',
         empresas: './pages/error.html',
-        suporte: './pages/error.html'
+        suporte: './pages/error.html',
+        login: './pages/login.html'
     };
 
     document.querySelector('.home1').addEventListener('click', () => {
@@ -162,5 +163,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.querySelector('.suporte').addEventListener('click', () => {
         window.location.href = pageUrls.suporte;
+    });
+
+    document.querySelector('.login').addEventListener('click', () => {
+        window.location.href = pageUrls.login; // Atualizei a URL para redirecionar para login.html
     });
 });

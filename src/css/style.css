@@ -22,15 +22,6 @@ body {
         align-items: center;
     }
     
-    .login {
-        background-color: transparent;
-        border: 1px solid #000;
-        padding: 5px 10px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-weight: bold;
-    }
-    
     .hero {
         text-align: center;
         padding: 50px 20px;
@@ -176,22 +167,70 @@ body {
     height: 20px;
     text-align: left;
 }
-.slidebar-child {
-    position: absolute;
-    top: 0px;
-    left: 1677px;
-    border-radius: 60px;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    width: 157px;
-    height: 40px;
-}
+
 .login {
     position: absolute;
-    top: 10px;
-    left: 1734px;
-    letter-spacing: 0.1em;
-}
+    top: 5px;
+    left: 1700px;
+    font-family: poppins;
+    letter-spacing: 0.2em;
+    --primary-color: #A02CFB;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 30px;
+    color: var(--secondary-color);
+    padding: 0.5em 1.7em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: 300px;
+  }
+  
+  .login .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login .arrow {
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .login .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .login:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .login:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .login:hover .arrow:before {
+    right: 0;
+  }
 .expand-arrow-icon {
     position: absolute;
     top: 792px;
