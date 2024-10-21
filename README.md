@@ -61,17 +61,19 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td><br/>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/95584209?s=400&u=5955222de40126211aa2b50c07341f5e5290a970&v=4" width="100px;" alt="Foto do Tonyzin no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/95584209?s=400&u=5955222de40126211aa2b50c07341f5e5290a970&v=4" width="100px;" alt="Foto do Raphael Simões Gomes no GitHub"/><br>
         <sub>
           <b>R. Simões G.</b><br/>
         </sub>
-            <td align="center">
+      </a>
+    </td><br/>
+    <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/136760513?v=4" width="100px;" alt="Foto do Tonyzin no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/136760513?v=4" width="100px;" alt="Foto do Yasmin Neuman no GitHub"/><br>
         <sub>
-          <b>Yasmin Neumann</b><br/>
+          <b>Neuman</b><br/>
         </sub>
       </a>
-    </td>
+    </td><br/>
   </tr>
 </table>
